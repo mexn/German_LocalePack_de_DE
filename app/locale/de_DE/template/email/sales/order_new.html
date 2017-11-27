@@ -28,10 +28,10 @@
                 <tr>
                     <td class="email-heading">
                         <h1>Hallo {{htmlescape var=$order.getCustomerName()}},</h1>
-                        <p>vielen Dank für Ihre Bestellung bei {{var store.getFrontendName()}}.
-                            Sobald Ihre Sendung verschickt wurde, erhalten Sie per E-Mail weitere Informationen zur Sendungsverfolgung.
-                            Sie können den aktuellen Status Ihrer Bestellung jederzeit in <a href="{{store url="customer/account/"}}">Ihrem Benutzerkonto</a> einsehen.
-                            Nachfolgend finden Sie Ihre Bestellbestätigung.</p>
+                        <p>Vielen Dank für deine Bestellung bei {{var store.getFrontendName()}}.
+                            Sobald deine Sendung verschickt wurde, erhältst du per E-Mail weitere Informationen zur Sendungsverfolgung.
+                            Du kannst den aktuellen Status deiner Bestellung jederzeit in <a href="{{store url="customer/account/"}}">deinem Benutzerkonto</a> einsehen.
+                            Nachfolgend findest du deine Bestellbestätigung.</p>
                     </td>
                     <td class="store-info">
                         {{template config_path="design/email/support"}}
@@ -42,7 +42,7 @@
     </tr>
     <tr>
         <td class="order-details">
-            <h3>Ihre Bestellung Nr. <span class="no-link">{{var order.increment_id}}</span></h3>
+            <h3>Deine Bestellung Nr. <span class="no-link">{{var order.increment_id}}</span></h3>
             <p>vom {{var order.getCreatedAtFormated('long')}}</p>
         </td>
     </tr>

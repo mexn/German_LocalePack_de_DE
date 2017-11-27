@@ -22,14 +22,14 @@
             <table cellpadding="0" cellspacing="0" border="0">
                 <tr>
                     <td class="action-content">
-                        <p>Ihre E-Mail-Adresse {{var customer.email}} muss bestätigt werden, bevor Sie sich damit in unserem Shop anmelden können.</p>
+                        <p>Deine E-Mail-Adresse {{var customer.email}} muss bestätigt werden, bevor du dich damit in meinem Shop anmelden kannst.</p>
                         <h1>Hallo {{htmlescape var=$customer.name}},</h1>
                         <p class="highlighted-text">
-                            Mit folgenden Zugangsdaten können Sie sich anschließend anmelden:<br/>
+                            Mit folgenden Zugangsdaten kannst du dich anschließend anmelden:<br/>
                             <strong>E-Mail-Adresse:</strong> {{var customer.email}}<br/>
                             <strong>Passwort:</strong> {{htmlescape var=$customer.password}}
                         </p>
-                        <p>Um die E-Mail-Adresse zu bestätigen, klicken Sie bitte auf diesen Link (Der Link ist nur einmal gültig):</p>
+                        <p>Um die E-Mail-Adresse zu bestätigen, klicke bitte auf diesen Link (Der Link ist nur einmal gültig):</p>
                         <table cellspacing="0" cellpadding="0" class="action-button" >
                             <tr>
                                 <td>
@@ -37,7 +37,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <p>Falls der Link nicht funktioniert, kopieren Sie bitte den Link und fügen Sie Ihn direkt in die Adresszeile Ihres Browsers ein.</p>
+                        <p>Falls der Link nicht funktioniert, kopiere bitte den Link und füge ihn direkt in die Adresszeile deines Browsers ein.</p>
                         {{template config_path="design/email/support"}}
                     </td>
                 </tr>
