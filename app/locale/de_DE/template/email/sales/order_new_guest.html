@@ -54,7 +54,9 @@
                 </tr>
             </table>
             {{/if}}
-            {{layout handle="sales_email_order_items" order=$order}}
+            <table cellpadding="0" cellspacing="0" border="0">
+                {{layout handle="sales_email_order_items" order=$order}}
+            </table>
             <table cellpadding="0" cellspacing="0" border="0">
                 <tr>
                     <td class="address-details">
