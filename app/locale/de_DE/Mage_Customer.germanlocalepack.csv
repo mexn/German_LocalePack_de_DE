@@ -1,3 +1,4 @@
 "If there is an account associated with %s you will receive an email with a link to reset your password.","Sollte ich einen Account unter %s finden können, erhältst du eine E-Mail mit einem Link, mit dem du dein Passwort zurücksetzen kannst."
 "Your password has been updated.","Dein Passwort wurde geändert."
 "This account is not confirmed. <a href=""%s"">Click here</a> to resend confirmation email.", "Dieses Konto ist nicht bestätigt. <a href=""%s"">Klicke hier</a>, um deinen Bestätigungslink erneut per E-Mail versenden zu lassen."
+"Changed Password or Email","Passwort oder E-Mail geändert"
