@@ -103,6 +103,7 @@ app/locale/de_DE/Mage_XmlConnect.csv	app/locale/de_DE/Mage_XmlConnect.csv
 app/locale/de_DE/Phoenix_Moneybookers.csv	app/locale/de_DE/Phoenix_Moneybookers.csv
 	
 #Missing Strings
+app/locale/de_DE/Mage_Core.germanlocalepack.csv	app/locale/de_DE/Mage_Core.germanlocalepack.csv
 app/locale/de_DE/Mage_Customer.germanlocalepack.csv	app/locale/de_DE/Mage_Customer.germanlocalepack.csv
 app/locale/de_DE/Mage_Wishlist.germanlocalepack.csv	app/locale/de_DE/Mage_Wishlist.germanlocalepack.csv
 	
